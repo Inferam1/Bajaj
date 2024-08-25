@@ -1,0 +1,8 @@
+curl -X POST https://bfhl-api.herokuapp.com/bfhl -H "Content-Type: application/json" -d '{
+  "first_name": "John",
+  "last_name": "Doe",
+  "dob": "17-09-1999",
+  "email_id": "john.doe@college.edu",
+  "roll_number": "123456789",
+  "data": ["a", "b", "c", 1, 2, 3, "z"]
+}'
